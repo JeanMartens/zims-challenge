@@ -7,39 +7,45 @@ from urllib.parse import quote_plus
 
 # --- Theme Data ---
 STYLES = [
-    "Méditerranéenne", "Futuriste", "Victorienne", "Art Déco", "Brutaliste",
-    "Zen Japonaise", "Scandinave", "Gothique", "Tropicale", "Industrielle",
-    "Mid-Century Modern", "Ferme Rustique", "Marocaine", "Cyberpunk",
-    "Tudor", "Coloniale Espagnole", "Bauhaus", "Bohème", "Île Grecque",
-    "Chalet Suisse", "Adobe Désertique", "Steampunk", "Minimaliste", "Baroque",
-    "Côtière", "Prairie", "Art Nouveau", "Rétro 70s", "Tiny",
-    "Cabane dans les Arbres", "Souterraine", "Flottante", "Falaise", "Bord de Lac",
-    "Entrepôt Reconverti", "Maison de Hobbit", "Château", "Pagode", "Hacienda",
-    "Parisienne", "Brownstone", "Cape Cod", "Cabane en Rondins",
+    # Pays
+    "Française", "Italienne", "Espagnole", "Américaine", "Japonaise",
+    "Coréenne", "Chinoise", "Marocaine", "Brésilienne", "Mexicaine",
+    "Allemande", "Britannique", "Grecque", "Turque", "Indienne",
+    "Thaïlandaise", "Suédoise", "Norvégienne", "Canadienne", "Australienne",
+
+    # Vibes sociales / culturelles
+    "Nouveau Riche", "Bourgeoise", "Catho Traditionnelle", "Punk",
+    "Bobo Écolo", "Hipster", "Racaille Chic", "Influenceuse Instagram",
+    "Start-up Nation", "Artiste Bohème", "Famille Nombreuse",
+    "Geek / Gamer", "Retraités Riches", "Vieille Fortune",
+    "Étudiante Fauchée", "Fitness / Gym Bro", "Luxury Minimaliste",
 ]
 
-# English equivalents for image search (better results)
 STYLES_EN = [
-    "Mediterranean", "Futuristic", "Victorian", "Art Deco", "Brutalist",
-    "Japanese Zen", "Scandinavian", "Gothic", "Tropical", "Industrial",
-    "Mid-Century Modern", "Rustic Farmhouse", "Moroccan", "Cyberpunk",
-    "Tudor", "Spanish Colonial", "Bauhaus", "Bohemian", "Greek Island",
-    "Swiss Chalet", "Desert Adobe", "Steampunk", "Minimalist", "Baroque",
-    "Coastal", "Prairie Style", "Art Nouveau", "Retro 70s", "Tiny",
-    "Treehouse", "Underground", "Floating", "Cliffside", "Lakeside",
-    "Converted Warehouse", "Hobbit Hole", "Castle", "Pagoda", "Hacienda",
-    "Parisian", "Brownstone", "Cape Cod", "Log Cabin",
+    # Countries
+    "French", "Italian", "Spanish", "American", "Japanese",
+    "Korean", "Chinese", "Moroccan", "Brazilian", "Mexican",
+    "German", "British", "Greek", "Turkish", "Indian",
+    "Thai", "Swedish", "Norwegian", "Canadian", "Australian",
+
+    # Social / cultural vibes
+    "Nouveau Riche", "Bourgeois", "Traditional Catholic", "Punk",
+    "Eco Bobo", "Hipster", "Street Chic", "Instagram Influencer",
+    "Startup Founder", "Bohemian Artist", "Large Family",
+    "Geek Gamer", "Wealthy Retired", "Old Money",
+    "Broke Student", "Fitness Lifestyle", "Luxury Minimalist",
 ]
 
 BUILDING_TYPES_FR = [
-    "Maison", "Manoir", "Villa", "Appartement", "Loft", "Cottage",
-    "Penthouse", "Bungalow", "Studio", "Refuge",
+    "Maison", "Villa", "Appartement", "Loft", "Manoir",
+    "Penthouse", "Bungalow", "Studio", "Duplex",
 ]
 
 BUILDING_TYPES_EN = [
-    "House", "Mansion", "Villa", "Apartment", "Loft", "Cottage",
-    "Penthouse", "Bungalow", "Studio", "Retreat",
+    "House", "Villa", "Apartment", "Loft", "Mansion",
+    "Penthouse", "Bungalow", "Studio", "Duplex",
 ]
+
 
 
 def fetch_image_url(query: str) -> str | None:
