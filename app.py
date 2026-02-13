@@ -33,16 +33,12 @@ STYLES_EN = [
 
 BUILDING_TYPES_FR = [
     "Maison", "Manoir", "Villa", "Appartement", "Loft", "Cottage",
-    "Penthouse", "Bungalow", "Studio", "Café", "Restaurant", "Bibliothèque",
-    "Musée", "Salle de Sport", "Spa", "Boîte de Nuit", "Centre Communautaire",
-    "Serre", "Atelier", "Librairie", "Bar", "Galerie", "Boulangerie", "Refuge",
+    "Penthouse", "Bungalow", "Studio", "Refuge",
 ]
 
 BUILDING_TYPES_EN = [
     "House", "Mansion", "Villa", "Apartment", "Loft", "Cottage",
-    "Penthouse", "Bungalow", "Studio", "Café", "Restaurant", "Library",
-    "Museum", "Gym", "Spa", "Nightclub", "Community Center", "Greenhouse",
-    "Workshop", "Bookshop", "Bar", "Gallery", "Bakery", "Retreat",
+    "Penthouse", "Bungalow", "Studio", "Retreat",
 ]
 
 
